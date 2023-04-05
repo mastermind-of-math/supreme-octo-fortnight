@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Lens vs MobileNet</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <center>
+            <span id="title">
+                <span>
+                    <img id="google"src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Logo_of_Google_Lens.svg">
+                </span>
+                <span id="vs">vs</span>
+                <span id="mn">
+                    MobileNet
+                </span>
+            </span>
+            <div id="slideShow">
+                <span id="la" onclick="trans(-1)">&#10094;</span>
+                <div id="itemdisplay">
+                    <br>
+                    <img id="img" src="Tree.jpg">
+                    <h1 class="disp">Google Lens vs MobileNet:</h1>
+                    <h1 class="disp" id="gld">Google Lens: none</h1>
+                    <h1 class="disp" id="mnd">MobileNet: none</h1>
+                    <h1 class="disp" id="wnd"> is more accurate</h1>
+                    <h1 class="disp" id="num">1/5</h1>
+                </div>
+                <span id="ra" onclick="trans(1)">&#10095;</span>
+            </div>
+            <footer>By Owen</footer>
+        </center>
+        <script src="main.js"></script>
+    <body>
+</html>
